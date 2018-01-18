@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.epam.automation.websevices.test.RestAssuredDemo">
+        <methods>
+          <include name="checkBodyLength"/>
+          <include name="checkStatusCode"/>
+          <include name="initTest"/>
+          <include name="checkResponseHeaderValue"/>
+          <include name="checkResponseHeader"/>
+        </methods>
+      </class> <!-- com.epam.automation.websevices.test.RestAssuredDemo -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
